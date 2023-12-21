@@ -1,0 +1,11 @@
+if (typeof firebase === 'undefined') throw new Error('hosting/init-error: Firebase SDK not detected. You must include it before /__/firebase/init.js');
+firebase.initializeApp({
+  "apiKey": "AIzaSyCSB-HHmtbmQ4ph1_DPoWOx3OjWAxkcfXY",
+  "appId": "1:86171761929:web:58524789827b8bbe9827d8",
+  "authDomain": "elektro-home.firebaseapp.com",
+  "databaseURL": "https://elektro-home.firebaseio.com",
+  "measurementId": "G-FNC1E7R5LS",
+  "messagingSenderId": "86171761929",
+  "projectId": "elektro-home",
+  "storageBucket": "elektro-home.appspot.com"
+});
